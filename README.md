@@ -16,6 +16,7 @@ The project structure:
 project
 
 │ README.md
+| Q2.md
 │ convert_norsk_char.py
 │ load_csv.py
 | load_one_csv.py
@@ -44,6 +45,7 @@ project
 
 ## Files description
 
+- `Q2.md`: answers to Question 2
 - `origin_csv`: origin CSV data including 01/2022 - recent (01/2023) data
 - `processed_csv`: processed CSV data with transformed Norwegian characters (æ, ø, å) with the English version (ae, oe, aa)
 - `convert_norsk_char.py`: transforms Norwegian characters (æ, ø, å) into the English version (ae, oe, aa) 
