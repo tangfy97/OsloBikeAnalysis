@@ -1,7 +1,7 @@
 # Oslo City Bike Data Analysis
 ## Prerequisites
 First make sure you have installed the following required Python3 packages:
-``````python
+``````
 - pymysql
 - csv
 - glob
