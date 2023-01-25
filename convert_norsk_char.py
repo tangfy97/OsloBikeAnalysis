@@ -54,8 +54,8 @@ def change(data,file):
     print(file+" save_success")
 
 if __name__ == '__main__':
-    base="/Users/feiyangtang/Desktop/Oslo-City-Bike-Analysis/origin_csv/"
-    files=os.listdir("/Users/feiyangtang/Desktop/Oslo-City-Bike-Analysis/origin_csv")
+    base="/Users/feiyangtang/Desktop/OsloBikeAnalysis/origin_csv/"
+    files=os.listdir("/Users/feiyangtang/Desktop/OsloBikeAnalysis/origin_csv")
     for file in files:
         #print(base+file)
         data = pd.read_csv(base+file)

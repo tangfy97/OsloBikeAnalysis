@@ -6,7 +6,7 @@ import pandas as pd
 time_start = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) # record the current timestamp
 print('>> The current time is: ',time_start)
 print('>> Start processing: ')
-filelocation = r"/Users/feiyangtang/Desktop/Oslo-City-Bike-Analysis/processed_csv/"
+filelocation = r"/Users/feiyangtang/Desktop/OsloBikeAnalysis/processed_csv/"
 
 # 2.Link DB
 print('>> Connect MySQL...')
