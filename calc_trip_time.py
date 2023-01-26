@@ -1,11 +1,11 @@
 '''
 STEPS:
-1. We first have to import mysql.connector. After importing, we use the MySQL.connector.connect() function to connect to the MySQL database.
-2. We have to create a cursor for the table.
-3. We execute our function to find the average value of the table's duration column using the cursor.execute() function. In this function, we put "select AVG(score) from TABLE as average" in one line.
+1. We first import mysql.connector. After importing, we use the MySQL.connector.connect() function to connect to the MySQL database.
+2. We create a cursor for the table.
+3. We execute our function to find the average value of the table's duration column using the cursor.execute() function.
 4. We create a variable called row and set it to cursor.fetchall().
 5. We use a for loop and print out i[0], which represents the average value of the duration column.
-6. Once we've done what needs to be done, we close the database.
+6. After everything is finished, we close the database connection.
 
 Conclusion:
 With this approach, we can find the average of all rows in a column in a MySQL table using Python.
